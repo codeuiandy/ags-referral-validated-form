@@ -143,6 +143,7 @@ overflow-x: hidden;
   display: inline-block;
   margin-left: 5px;
   font-family: openSansBold;
+  font-size: 15px;
 }
 .bounceball {
   position: relative;
