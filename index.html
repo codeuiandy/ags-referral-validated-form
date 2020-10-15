@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referral Page</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <div id="app-wrapper">
+
+    <div class="referral-content">
+      <h1 class="referal-header"> <span>Andrew </span> invited you to join the largest community of african,
+         Female Proffessionals and Entrepreneurs.</h1>
+         <h4 class="referal-SubText"> Enter your email and create a password to signup for AGS Tribe App. </h4>
+
+         <form>
+
+         <div class="inputBox-container">
+           <label for="email">Email Address</label>
+           <input  type="email" name="email" id="email" placeholder="Email Address">
+           <div class="errorMessage">
+             <span id="emailError"></span>
+           </div>
+         </div>
+
+
+         <div class="inputBox-container">
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" placeholder="First name">
+          <div class="errorMessage">
+            <span id="firstNameError"></span>
+          </div>
+        </div>
+
+
+        <div class="inputBox-container">
+          <label for="Lastname">Last Name</label>
+          <input type="text" name="Lastname" id="Lastname" placeholder="Last name">
+        </div>
+
+
+        <div class="inputBox-container">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="password">
+          <div class="errorMessage">
+            <span id="passwordError"></span>
+          </div>
+        </div>
+
+
+        <div class="inputBox-container">
+          <label for="ConfirmPassword">Confirm Password</label>
+          <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="Confirm Password">
+          <div class="errorMessage">
+            <span id="confirmPasswordError"></span>
+          </div>
+        </div>
+
+        <h6 class="getStarted-terms-header">Clicking 'Get Started' accepts our <span style="text-decoration: underline;cursor: pointer;">terms of use</span></h6>
+
+      
+        <div class="wrap">
+          <button id="getStartedBtn">Get Started</button>
+          <div id="waiter" class="loading">
+            <div class="bounceball"></div>
+            <div class="text">Please wait while we setUp your account</div>
+          </div>
+        </div>
+
+         </form>
+    </div>
+
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
