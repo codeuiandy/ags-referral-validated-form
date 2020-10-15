@@ -109,6 +109,7 @@ overflow-x: hidden;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.637);
   font-weight: 600;
+  font-family: openSansBold;
 }
 
 .getStarted-terms-header{
