@@ -171,3 +171,18 @@ overflow-x: hidden;
     top: 0;
  }
 }
+
+
+@media(max-width:730px){
+  #app-wrapper{
+    width: 90%;
+  
+   
+  }
+
+  .inputBox-container{
+    display: grid;
+    width: 95%;
+    margin-top: 5px;
+  }
+}
