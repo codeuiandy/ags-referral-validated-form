@@ -18,6 +18,11 @@ overflow-x: hidden;
 }
 
 
+@font-face {
+  font-family: openSansRegular;
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+
 
 
 #app-wrapper{
@@ -116,7 +121,7 @@ overflow-x: hidden;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.637);
   font-weight: 300;
-  font-family: openSansBold;
+  font-family: openSansRegular;
   margin-top: 8px;
 }
 
