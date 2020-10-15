@@ -113,10 +113,11 @@ overflow-x: hidden;
 }
 
 .getStarted-terms-header{
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.637);
-  font-weight: 600;
+  font-weight: 300;
   font-family: openSansBold;
+  margin-top: 10px;
 }
 
 
