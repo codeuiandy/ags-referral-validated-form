@@ -106,9 +106,9 @@ overflow-x: hidden;
 
 
 .inputBox-container label{
-  font-size: 17px;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.637);
-  font-weight: 600;
+  font-weight: 300;
   font-family: openSansBold;
 }
 
@@ -116,6 +116,7 @@ overflow-x: hidden;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.637);
   font-weight: 600;
+  font-family: openSansBold;
 }
 
 
@@ -137,6 +138,7 @@ overflow-x: hidden;
   color: #fbae17;
   display: inline-block;
   margin-left: 5px;
+  font-family: openSansBold;
 }
 .bounceball {
   position: relative;
