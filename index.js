@@ -69,28 +69,28 @@ const validateFirstName = ()=>{
   }
 }
 
-const SubmitData=(e)=> {
-  e.preventDefault()
-  let emailValue = document.getElementById("email")
-  emailValue.value
-  let checkEmail = ValidateEmail(emailValue.value)
-  
-  if (checkEmail === false ) {
-   return
-  }
-  let checkPassword = ConfirmPassword()
-  if (checkPassword === false ) {
-    return
-   }
+        const SubmitData=(e)=> {
+                    e.preventDefault()
+                    let emailValue = document.getElementById("email")
+                    emailValue.value
+                    let checkEmail = ValidateEmail(emailValue.value)
+                    
+                    if (checkEmail === false ) {
+                    return
+                    }
+                    let checkPassword = ConfirmPassword()
+                    if (checkPassword === false ) {
+                      return
+                    }
 
-   let CheckvalidateFirstName = validateFirstName()
-   if (CheckvalidateFirstName === false ) {
-    return
-   }
-  console.log(emailValue.value)
-  submitBtn.style.display="none"
-  loader.style.display="block"
-  setTimeout(()=> window.location.href="download-ags-app.html",1000)
+                    let CheckvalidateFirstName = validateFirstName()
+                    if (CheckvalidateFirstName === false ) {
+                      return
+                    }
+                    console.log(emailValue.value)
+                    submitBtn.style.display="none"
+                    loader.style.display="block"
+                    setTimeout(()=> window.location.href="download-ags-app.html",1000)
 
 
-}
+                  }

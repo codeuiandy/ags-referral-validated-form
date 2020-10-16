@@ -200,3 +200,99 @@ overflow-x: hidden;
     margin-top: 5px;
   }
 }
+
+
+.download-app-wrap{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.downloadApp{
+  width: 50vw;
+  height: fit-content;
+  background-color:white;
+  overflow: hidden;
+  filter: drop-shadow(3px 5px 5px rgba(128, 128, 128, 0.267));
+  border-radius: 5px;
+  transition: all 500ms ease;
+  padding-bottom: 30px;
+  margin: 20px;
+}
+
+.downloadApp:hover{
+  filter: drop-shadow(3px 1px 1px rgba(128, 128, 128, 0.089));
+}
+
+.downloadApp img{
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+
+      .downloadApp h1{
+        color: #fdad00;
+        font-weight: 500;
+        font-family: openSansBold;
+        text-align: center;
+        margin-top: 3px;
+        font-size: 35px;
+        margin-bottom: 0;
+      }
+
+      .downloadApp h3{
+        color: rgba(0, 0, 0, 0.678);
+        font-weight: 400;
+        font-family: openSansBold;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 13px;
+      }
+      
+      .download-app-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0;
+        
+      }
+
+
+      .download-app-button button{
+        background-color: #fdad00;
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: openSansBold;
+  margin-top: 25px;
+  border: none;
+  margin: 0;
+  margin-bottom: 10px;
+      }
+  
+
+      @media(max-width:1024px){
+        .downloadApp{
+          width: 80vw;
+         
+        }
+
+        .download-app-wrap{
+         
+          height: fit-content;
+          
+        }
+        }
