@@ -282,7 +282,7 @@ overflow-x: hidden;
 
       .download-app-button button{
 color: #fdad00;
-
+background-color: transparent;
   font-weight: 500;
   border-radius: 3px;
   border: none;
