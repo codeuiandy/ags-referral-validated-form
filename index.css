@@ -236,10 +236,10 @@ overflow-x: hidden;
 }
 
  .center-ags-logos img{
-  width: 200px;
+  width: 150px;
   background-size: contain;
   background-position: center;
-  height:80px;
+  height:40px;
   margin-left: 50px;
  margin-top: 10px;
  margin-bottom: 0;
