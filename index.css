@@ -281,14 +281,14 @@ overflow-x: hidden;
 
 
       .download-app-button button{
-  background-color: #fdad00;
-  color: white;
+color: #fdad00;
+
   font-weight: 500;
   border-radius: 3px;
   border: none;
   width: 200px;
   height: 40px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 300;
   font-family: openSansBold;
   margin-top: 25px;
