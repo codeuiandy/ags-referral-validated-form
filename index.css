@@ -234,10 +234,10 @@ overflow-x: hidden;
 }
 
 .downloadApp .center-ags-logo img{
-  width: 320px;
+  width: 180px;
   background-size: cover;
   background-position: center;
-  height:110px;
+  height:80px;
  
 }
 
@@ -263,7 +263,7 @@ overflow-x: hidden;
       .downloadApp h3{
         color: rgba(0, 0, 0, 0.678);
         font-weight: 400;
-        font-family: openSansBold;
+        font-family: openSansRegular;
         text-align: center;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -280,8 +280,9 @@ overflow-x: hidden;
       }
 
 
-      .download-app-button span{
-  color: #fdad00;
+      .download-app-button button{
+  background-color: #fdad00;
+  color: white;
   font-weight: 500;
   border-radius: 3px;
   border: none;
@@ -306,12 +307,12 @@ overflow-x: hidden;
         margin-bottom: 0;
       }
 
-      .download-ags-ios i{
-       font-size: 30px;
-       margin-right: 25px;
-       margin-top: 0;
-       color: #25282A;
-       cursor: pointer;
+      .download-ags-ios img{
+     width: 180px;
+     height: 50px;
+     margin-right: 20px;
+     margin-top: 20px;
+     cursor: pointer;
       }
     
 
